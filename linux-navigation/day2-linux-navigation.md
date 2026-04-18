@@ -1,21 +1,20 @@
-# Day 2 – Linux Navigation
+# Tag 2 – Linux Navigation
 
-## Topics Covered
+## Behandelte Themen
 
-### Filesystem Hierarchy
-Learned how Linux organizes directories such as:
-- /home → user files
-- /etc → configuration files
-- /var → logs and system data
-- /root → admin user directory
+### Dateisystem-Struktur
+Gelernt, wie Linux Verzeichnisse organisiert:
+- /home → Benutzerdateien
+- /etc → Konfigurationsdateien
+- /var → Logs und Systemdaten
+- /root → Administrator-Verzeichnis
 
-### Navigation Commands
-Practiced basic terminal navigation:
+### Navigationsbefehle
+Grundlegende Navigation im Terminal geübt:
 
-```bash
-pwd     # show current directory
-ls      # list files
-ls -la  # detailed list
-cd      # change directory
-cd ..   # move up one level
-cd ~    # go to home directory
+pwd     # aktuelles Verzeichnis anzeigen
+ls      # Dateien auflisten
+ls -la  # detaillierte Liste anzeigen
+cd      # Verzeichnis wechseln
+cd ..   # eine Ebene nach oben gehen
+cd ~    # ins Home-Verzeichnis wechseln
