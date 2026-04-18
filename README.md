@@ -1,28 +1,26 @@
 # it-admin-lab
-Systemadmin Projekt
-
+Systemadministrations-Projekt
 
 # IT Admin Lab (Linux + SSH + Networking)
 
-## Overview
-This project documents my hands-on learning of Linux system administration using a virtual Ubuntu server.
+## Übersicht
+Dieses Projekt dokumentiert mein praktisches Lernen im Bereich Linux-Systemadministration mit einem virtuellen Ubuntu-Server.
 
-## Environment
-- Ubuntu Server (UTM Virtual Machine)
-- macOS host system
+## Umgebung
+- Ubuntu Server (UTM virtuelle Maschine)
+- macOS Host-System
 
 ---
 
-## Day 1 – Setup
+## Tag 1 – Einrichtung
 
-### Tasks Completed
-- Installed Ubuntu Server in UTM
-- Configured virtual machine
-- Logged into Linux system
-- Verified SSH installation
+### Durchgeführte Aufgaben
+- Ubuntu Server in UTM installiert
+- Virtuelle Maschine konfiguriert
+- Anmeldung im Linux-System durchgeführt
+- SSH-Installation überprüft
 
-### Commands Used
-```bash
+### Verwendete Befehle
 whoami
 hostname
 ssh -V
