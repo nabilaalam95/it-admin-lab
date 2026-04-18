@@ -1,46 +1,44 @@
-## Goal
-Learnt how to manage files and directories in a Linux environment using command-line tools.
+## Ziel
+Gelernt, wie man Dateien und Verzeichnisse in einer Linux-Umgebung mit Kommandozeilen-Tools verwaltet.
 
 ---
 
-## Commands Practiced
+## Verwendete Befehle
 
-### Create files and directories
-mkdir test-folder        # create directory  
-touch file1.txt          # create empty file  
-
----
-
-### Copy files
-cp file1.txt file1-copy.txt   # copy file  
-cp file1.txt test-folder/     # copy file into directory  
+### Dateien und Verzeichnisse erstellen
+mkdir test-folder        # Verzeichnis erstellen  
+touch file1.txt          # leere Datei erstellen  
 
 ---
 
-### Move and rename files
-mv file1.txt file-renamed.txt     # rename file  
-mv file-renamed.txt test-folder/  # move file into directory  
+### Dateien kopieren
+cp file1.txt file1-copy.txt   # Datei kopieren  
+cp file1.txt test-folder/     # Datei in Verzeichnis kopieren  
 
 ---
 
-### Delete files and directories
-rm file1-copy.txt        # delete file  
-rm -r test-folder        # delete directory and contents  
+### Dateien verschieben und umbenennen
+mv file1.txt file-renamed.txt     # Datei umbenennen  
+mv file-renamed.txt test-folder/  # Datei in Verzeichnis verschieben  
 
 ---
 
-### View file contents
-cat file1.txt    # display file content  
-less file1.txt   # view file with scrolling  
+### Dateien und Verzeichnisse löschen
+rm file1-copy.txt        # Datei löschen  
+rm -r test-folder        # Verzeichnis und Inhalt löschen  
 
 ---
 
-## Practice Tasks
+### Dateiinhalte anzeigen
+cat file1.txt    # Inhalt anzeigen  
+less file1.txt   # Inhalt mit Scroll-Funktion anzeigen  
 
-- Created directories and files using mkdir and touch  
-- Copied and moved files between directories  
-- Renamed files using mv  
-- Deleted files and directories using rm  
-- Viewed file contents using cat and less  
+---
 
- 
+## Übungen
+
+- Verzeichnisse und Dateien mit mkdir und touch erstellt  
+- Dateien zwischen Verzeichnissen kopiert und verschoben  
+- Dateien mit mv umbenannt  
+- Dateien und Verzeichnisse mit rm gelöscht  
+- Inhalte mit cat und less angezeigt  
